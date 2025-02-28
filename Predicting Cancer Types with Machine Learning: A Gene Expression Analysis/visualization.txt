@@ -1,0 +1,23 @@
+# Visualization Results
+
+## **1. Class Distribution of Cancer Types**
+- The dataset contains **five cancer types** with varying sample sizes.
+- **BRCA** has the highest number of samples, while **COAD** has the least.
+- This helps in understanding dataset balance before training.
+
+
+## **2. Confusion Matrix**
+- The confusion matrix shows the performance of the classifier on the test data.
+- **Most predictions are correct**, with only **a few misclassifications**.
+- **LUAD had two misclassified samples** as BRCA, while COAD had **one misclassification**.
+
+
+## **3. ROC Curve for Multiclass Classification**
+- The **ROC curve for each class is nearly perfect**, with **AUC = 1.00** for all classes.
+- This suggests that the model is highly effective in distinguishing between different cancer types.
+
+
+## **Conclusion**
+- The model **performs exceptionally well**, achieving **high accuracy, precision, recall, and F1-score**.
+- **Minor misclassifications** exist but are minimal.
+- The **ROC curve indicates a strong predictive ability**, suggesting the classifier is well-trained.
