@@ -48,6 +48,3 @@
 - Support for **real-world datasets** from GEO.
 - Integration with **machine learning models** for improved predictions.
 - More advanced **statistical weighting** for gene selection.
-
-## 📝 Author
-Developed as an **algorithm development project** in **bioinformatics**.
