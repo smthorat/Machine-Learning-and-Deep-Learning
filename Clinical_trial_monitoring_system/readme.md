@@ -7,7 +7,7 @@
 
 A comprehensive dashboard application built with Streamlit for monitoring and analyzing clinical trial data with a focus on biomarker tracking, adverse event monitoring, patient exploration, and dropout risk prediction.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -27,38 +27,38 @@ The Clinical Trial Monitoring System is a powerful web-based dashboard designed 
 
 The system integrates multi-omics data (proteomics and genomics), clinical observations, and adverse event tracking to provide a holistic view of trial progress. It features machine learning-based risk assessment to identify patients at high risk of dropping out, allowing for proactive intervention.
 
-## ✨ Features
+## Features
 
-### 📊 Overview Dashboard
+### Overview Dashboard
 - Comprehensive trial summary with key metrics
 - Patient demographics and clinical characteristics visualization
 - Summary of biomarker distribution and adverse events
 
-### 🧬 Biomarker Tracker
+### Biomarker Tracker
 - Dynamic protein expression and copy number variation (CNV) analysis
 - Statistical summary of selected biomarkers
 - Distribution visualization by demographic and clinical factors
 - Multi-biomarker correlation analysis
 
-### ⚠️ Adverse Event Monitor
+### Adverse Event Monitor
 - Temporal tracking of adverse events
 - Severity distribution analysis
 - Demographic and clinical correlation with adverse events
 - Biomarker-adverse event relationship analysis
 
-### 👤 Patient Explorer
+### Patient Explorer
 - Detailed individual patient profiles
 - Clinical status visualization with severity scoring
 - Timeline of adverse events
 - Comparison of patient biomarker data to population averages
 
-### 🔮 Dropout Risk Analysis
+### Dropout Risk Analysis
 - Machine learning-based prediction of patient dropout risk
 - Risk factor identification and visualization
 - High-risk patient cohort analysis
 - Intervention recommendation system
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 The system is built using:
 
@@ -69,7 +69,7 @@ The system is built using:
 - **Machine Learning**: Scikit-learn for dropout risk prediction
 - **Statistical Analysis**: Pandas and NumPy for data manipulation
 
-## 🗄️ Data Schema
+## Data Schema
 
 The application uses a SQLite database with the following tables:
 
@@ -108,7 +108,7 @@ The application uses a SQLite database with the following tables:
    - event_date
    - related_to_treatment
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -154,7 +154,7 @@ The application uses a SQLite database with the following tables:
 
 6. Open your browser and navigate to `http://localhost:8501`
 
-## 💻 Usage
+## Usage
 
 ### Filtering Data
 Use the sidebar filters to select specific patient cohorts based on:
@@ -190,7 +190,7 @@ Use the sidebar navigation to switch between the five main dashboard pages:
 3. Examine risk factors and their impact
 4. Identify high-risk patients and review intervention recommendations
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 The dashboard incorporates a Random Forest classifier to predict patient dropout risk based on:
 - Demographic features (age, sex)
@@ -199,7 +199,7 @@ The dashboard incorporates a Random Forest classifier to predict patient dropout
 
 The model is either loaded from a saved file (`dropout_model.pkl`) or dynamically created with sample data if the file is not available.
 
-## 🐛 Known Issues and Solutions
+## Known Issues and Solutions
 
 The application had several technical challenges that have been resolved:
 
@@ -223,7 +223,7 @@ The application had several technical challenges that have been resolved:
    - **Error**: `ValueError: The feature names should match those that were passed during fit.`
    - **Solution**: Added feature name compatibility check and dynamic model recreation when necessary.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Planned features for future releases:
 
@@ -247,7 +247,7 @@ Planned features for future releases:
    - Image data analysis (radiology, histopathology)
    - Natural language processing for clinical notes
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -257,4 +257,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
