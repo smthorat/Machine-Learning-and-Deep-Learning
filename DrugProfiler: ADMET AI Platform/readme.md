@@ -141,3 +141,44 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or feedback, please open an issue or contact: swarajmthorat@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ADMET AI: Drug Property Predictor
+
+An interactive platform for predicting and visualizing ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties of drug candidates using machine learning.
+
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/admet_ai?style=social)](https://github.com/yourusername/admet_ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io/)
+[![Docker](https://img.shields.io/badge/Docker-Available-blue.svg)](https://www.docker.com/)
+[![RDKit](https://img.shields.io/badge/RDKit-2022.03+-green.svg)](https://www.rdkit.org/)
+[![ChemProp](https://img.shields.io/badge/ChemProp-Latest-orange.svg)](https://github.com/chemprop/chemprop)
+
+![ADMET AI Screenshot](assets/dashboard_screenshot.png)
+
+## 💻 Technologies
+
+- **Frontend**: Streamlit dashboard for interactive visualization
+- **Backend**: Python with RDKit, Chemprop, and machine learning libraries
+- **Deployment**: Docker containerization for easy setup and reproducibility
+- **Development**: GitHub for version control and collaboration
+- **Data Processing**: Bash scripts for pipeline automation
+- **ML Models**: Chemprop with RDKit for molecular property prediction
+
+
+
