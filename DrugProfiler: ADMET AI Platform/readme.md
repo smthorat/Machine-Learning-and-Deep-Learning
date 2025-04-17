@@ -8,8 +8,6 @@ An interactive platform for predicting and visualizing ADMET (Absorption, Distri
 [![RDKit](https://img.shields.io/badge/RDKit-2022.03+-green.svg)](https://www.rdkit.org/)
 [![ChemProp](https://img.shields.io/badge/ChemProp-Latest-orange.svg)](https://github.com/chemprop/chemprop)
 
-![ADMET AI Screenshot](assets/dashboard_screenshot.png)
-
 ## 🧪 Overview
 
 ADMET AI is a comprehensive tool for drug discovery researchers to quickly assess the pharmacokinetic and toxicity profiles of potential drug candidates. Using machine learning models trained on TDC (Therapeutics Data Commons) datasets, it predicts key ADMET properties that are critical for drug development.
