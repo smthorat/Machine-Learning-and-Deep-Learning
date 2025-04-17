@@ -8,7 +8,7 @@ An interactive platform for predicting and visualizing ADMET (Absorption, Distri
 [![RDKit](https://img.shields.io/badge/RDKit-2022.03+-green.svg)](https://www.rdkit.org/)
 [![ChemProp](https://img.shields.io/badge/ChemProp-Latest-orange.svg)](https://github.com/chemprop/chemprop)
 
-## 🧪 Overview
+## Overview
 
 ADMET AI is a comprehensive tool for drug discovery researchers to quickly assess the pharmacokinetic and toxicity profiles of potential drug candidates. Using machine learning models trained on TDC (Therapeutics Data Commons) datasets, it predicts key ADMET properties that are critical for drug development.
 
@@ -23,7 +23,7 @@ ADMET AI is a comprehensive tool for drug discovery researchers to quickly asses
 - **Batch Analysis**: Process and compare multiple compounds
 - **Export Options**: Download results as CSV, images, and charts
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - RDKit
@@ -34,7 +34,7 @@ ADMET AI is a comprehensive tool for drug discovery researchers to quickly asses
 - Matplotlib
 - scikit-learn
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -55,14 +55,14 @@ conda install -c conda-forge rdkit
 pip install chemprop
 ```
 
-## 🏃‍♂️ Running the Application
+## Running the Application
 
 ```bash
 # Run the Streamlit app
 streamlit run app.py
 ```
 
-## 🧠 Model Training Pipeline
+## Model Training Pipeline
 
 The machine learning models are trained using the following pipeline:
 
@@ -79,7 +79,7 @@ The pipeline includes:
 4. Evaluation and benchmarking
 5. Visualization generation
 
-## 📊 Data
+## Data
 
 The models are trained on data from the Therapeutics Data Commons (TDC), a comprehensive platform for machine learning in drug discovery. The datasets include:
 
@@ -87,7 +87,7 @@ The models are trained on data from the Therapeutics Data Commons (TDC), a compr
 - **ADMET All**: Comprehensive collection of ADMET properties
 - **DrugBank Approved**: FDA-approved drugs for reference
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Model Architecture
 
@@ -105,11 +105,11 @@ The platform uses a combination of:
 - **Excretion**: Clearance, half-life
 - **Toxicity**: hERG inhibition, AMES mutagenicity, hepatotoxicity, skin sensitization
 
-## 📚 Documentation
+## Documentation
 
 For more detailed information on model parameters, datasets, and performance benchmarks, see the [documentation](docs/README.md).
 
-## 🔄 How to Use
+## How to Use
 
 1. **Input**: Enter a SMILES string or batch of SMILES
 2. **Select Model**: Choose between classification and regression
@@ -117,7 +117,7 @@ For more detailed information on model parameters, datasets, and performance ben
 4. **Analyze**: View molecular properties, ADMET profile, and interpretations
 5. **Export**: Download results for further analysis
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -127,11 +127,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Therapeutics Data Commons](https://tdcommons.ai/) for providing the datasets
 - [Swansonk14](https://github.com/swansonk14/admet_ai) Referring 
@@ -139,7 +139,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [RDKit](https://www.rdkit.org/) for cheminformatics functionality
 - [Streamlit](https://streamlit.io/) for the web interface
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue or contact: swarajmthorat@gmail.com
 
